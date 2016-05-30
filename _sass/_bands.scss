@@ -1,26 +1,35 @@
-.band {
+@mixin band-spacing {
     padding-top: $spacing-unit / 2;
     padding-bottom: $spacing-unit / 2;
+}
+
+.band {
+    @include band-spacing;
     border-bottom: 1px solid darken($gray, 5%);
 
     &--alt {
+        @include band-spacing;
         background: $gray;
     }
 
     &--secondary {
+        @include band-spacing;
         background: $secondary;
         color: $background-color;
     }
 
     &--primary {
+        @include band-spacing;
         background: $primary;
     }
 
     &--warning-light {
+        @include band-spacing;
         background: $warning-light;
     }
 
     &--primary-light {
+        @include band-spacing;
         background: $primary-light;
     }
 

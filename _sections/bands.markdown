@@ -8,8 +8,8 @@ A `band` is basically used to visually separate a _section_ of the page. For the
 <div class="demo">
     <div class="demo--section">
         <div class="band demo--block--SPACE">default band</div>
-        <div class="band band--secondary demo--block--SPACE">secondary band</div>
-        <div class="band band--alt demo--block--SPACE">alt band</div>
+        <div class="band--secondary demo--block--SPACE">secondary band</div>
+        <div class="band--alt demo--block--SPACE">alt band</div>
     </div>
 
 {% highlight html %}
@@ -18,10 +18,10 @@ A `band` is basically used to visually separate a _section_ of the page. For the
         <div class="band">
             default band
         </div>
-        <div class="band band--secondary">
+        <div class="band--secondary">
             secondary band
         </div>
-        <div class="band band--alt">
+        <div class="band--alt">
             alt band
         </div>
     </body>
