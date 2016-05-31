@@ -15,12 +15,20 @@
     &--secondary {
         @include band-spacing;
         background: $secondary;
-        color: $background-color;
     }
 
     &--primary {
         @include band-spacing;
         background: $primary;
+        color: $background-color;
+
+        a {
+            color: $background-color;
+
+            &:hover {
+                color: lighten($background-color, 10%);
+            }
+        }
     }
 
     &--warning-light {
